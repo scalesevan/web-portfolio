@@ -18,8 +18,8 @@ function App() {
         <div class="menubar-right">
           <a class="active" href="#home">Home</a>
           
-          <a href="#resume">Resume</a>
-          
+          <a href="#resume">Resume</a>          
+
           <div class="dropdown">
             <button class="dropbtn" href="#projects"> Projects</button>
             <div className="dropdown-content">
@@ -28,9 +28,10 @@ function App() {
               <a href="#project3">Project 3</a>
             </div>
           </div>
-          <a href="#resume">Photo Gallary</a>
-
+          
+          <a href="#gallery">Photo Gallery</a>
           <a href="#about">About</a>
+
         </div>
       </div>
       <img className="portrait" src={portrait} alt="portrait"/>

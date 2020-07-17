@@ -1,9 +1,12 @@
-import React, {Component} from "react";
+import React from "react";
 import "../App.css"
 
-const PhotoGallery = () => {
+import Navigation from '../Navigation';
+
+function PhotoGallery() {
     return (
         <>
+            <Navigation currActive={"photo"}/>
             <h1>Home</h1>
             <button>Sign Out</button>
         </>

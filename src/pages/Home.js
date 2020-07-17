@@ -7,11 +7,11 @@ import {
   Redirect,
 } from "react-router-dom";
 
-import './App.css';
-import portrait from './assets/portrait-square.jpeg'
-import dolf from './assets/dolf-square.jpeg'
+import '../App.css';
+import portrait from '../assets/portrait-square.jpeg'
+import dolf from '../assets/dolf-square.jpeg'
 
-import PhotoGallery from './routes/PhotoGallery';
+import Navigation from '../Navigation';
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,17 +36,17 @@ function Home() {
   return (
     <div className="App">
       
-      {/*<div><text className="header">Evan Scales</text></div>*/}
+      <Navigation currActive={"home"}/>
 
+      {/*}
       <div class="menubar">
         
         <div class="header">
           <img className="logo" src={dolf} alt="dolf"/>
           <text className="title">Evan Scales</text>
         </div>
-        <Router>
         <div class="menubar-right">
-          <a class="active" href="#home">{/*<FontAwesomeIcon icon={faHome}/>*/} Home</a>
+          <a class="active" href="#home">Home</a>
           
           <a href="#resume">Resume</a>          
 
@@ -58,14 +58,12 @@ function Home() {
               <a href="#project3">Project 3</a>
             </div>
           </div>
-          
-          <a href="#gallery">Photo Gallery</a>
-          <Route exact path="/photos" component={PhotoGallery} />
+          <Link to="/photo">Photo Gallery</Link>
           <a href="#about">About</a>
 
         </div>
-        </Router>
       </div>
+      */}
 
       <div class="bio">
         <img class="portrait" src={portrait} alt="portrait"/>
@@ -138,4 +136,4 @@ function Home() {
   ); 
 }
 
-export default App;
+export default Home;

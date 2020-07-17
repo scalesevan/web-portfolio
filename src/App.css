@@ -76,7 +76,7 @@ body {
 .logo {
   color: #f2f2f2;
   float: left;
-  padding: 8px 1vmin;
+  padding: 9px 1vmin;
   text-align: center;
   width: 35px;
   border-radius: 100%;
@@ -85,9 +85,9 @@ body {
 .title {
   color: #f2f2f2;
   float: left;
-  padding: 14px 1vmin;
+  padding: 12px 1vmin;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .text {
@@ -130,7 +130,6 @@ body {
   /*text-decoration: underline;*/
   border-bottom: 3px solid currentColor; /* Or whatever color you want */
   text-decoration: none;
-  transition-duration: 400ms;
   /*color: black;*/
 }
 
@@ -166,7 +165,6 @@ body {
 .dropdown:hover .dropbtn {
   border-bottom: 3px solid currentColor; /* Or whatever color you want */
   text-decoration: none;
-  transition-duration: 400ms;
 }
 
 .dropdown-content {
@@ -190,12 +188,10 @@ body {
 .dropdown-content a:hover {
   background-color: #ddd;
   border-bottom: none;
-  transition-duration: 400ms;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  transition-duration: 400ms;
 }
 
 .social_footer {
@@ -239,6 +235,7 @@ body {
 
   .menubar-right {
     float: right;
+    
   }
 
   .dropdown .dropbtn {

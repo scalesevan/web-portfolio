@@ -32,7 +32,7 @@ library.add(
 
 
 
-function App() {
+function Home() {
   return (
     <div className="App">
       

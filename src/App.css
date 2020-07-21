@@ -108,6 +108,7 @@ body {
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 10;
 }
 
 .menubar a {
@@ -130,6 +131,7 @@ body {
   /*text-decoration: underline;*/
   border-bottom: 3px solid currentColor; /* Or whatever color you want */
   text-decoration: none;
+  color: white;
   /*color: black;*/
 }
 
@@ -148,7 +150,7 @@ body {
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: none;
 }
 
 .dropdown .dropbtn {
@@ -173,7 +175,6 @@ body {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
 .dropdown-content a {
@@ -204,6 +205,7 @@ body {
   left: 50%;
   margin-top: -100px; /* Negative half of height. */
   margin-left: -250px; /* Negative half of width. */
+  text-align: center;
 }
 
 .social {
@@ -226,8 +228,12 @@ body {
 @media screen and (max-width: 710px) {
   .menubar {
     padding: 10px 0px 0px !important;
-    
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
   }
+
   .menubar a {
     text-align: left;
     font-size: 3vw;
@@ -294,6 +300,10 @@ body {
     color: rgb(73, 73, 73);
     font-size: 5vh
   }
+
+  .slideshow-container {
+    padding-top: 20vh !important;
+  }
 }
 
 .box {
@@ -311,3 +321,20 @@ body {
 .box .selected {
   align-self: center;
 }
+
+
+
+.slideshow-container {
+  max-width: 67vw;
+  padding-top: 12vh;
+  margin: auto;
+}
+
+.wdt{  
+  width: 37%  !important;  
+}  
+
+.img  
+{  
+  width: 67vw !important;  
+}  

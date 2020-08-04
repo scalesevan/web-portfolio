@@ -12,43 +12,17 @@ function Home() {
       
       <Navigation currActive={"home"}/>
 
-      {/*}
-      <div class="menubar">
-        
-        <div class="header">
-          <img className="logo" src={dolf} alt="dolf"/>
-          <text className="title">Evan Scales</text>
-        </div>
-        <div class="menubar-right">
-          <a class="active" href="#home">Home</a>
-          
-          <a href="#resume">Resume</a>          
-
-          <div class="dropdown">
-            <button class="dropbtn" href="#projects"> Projects</button>
-            <div className="dropdown-content">
-              <a href="#project1">Project 1</a>
-              <a href="#project2">Project 2</a>
-              <a href="#project3">Project 3</a>
-            </div>
-          </div>
-          <Link to="/photo">Photo Gallery</Link>
-          <a href="#about">About</a>
-
-        </div>
-      </div>
-      */}
-
       <div class="bio">
         <img class="portrait" src={portrait} alt="portrait"/>
-        <div class="paragraph">
-          <p>Hello, my name is Evan! I am a third year, Computer Science major studying at UC San Diego</p>
+        <div class="intro" >
+          <p class="name" >Evan G.L. Scales</p>
+          <p class="paragraph" >I am a third year Computer Science major at UC San Diego</p>
         </div> 
       </div>
 
       <Social/>
-
-      <div class="temp_paragraph">
+      
+      <div id="about" class="temp_paragraph">
         <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
         <p>Scroll down this frame to see the effect!</p>
         <p>Scroll to the top to remove the effect.</p>

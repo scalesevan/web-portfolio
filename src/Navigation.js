@@ -24,12 +24,12 @@ class Navigation extends React.Component {
             
                 <div class="header">
                     <img className="logo" src={dolf} alt="dolf"/>
-                    <text className="title">Evan Scales</text>
+                    <text className="title">DJ Scales</text>
                 </div>
                 <div class="menubar-right">
                     {/*<a  href="#home"><FontAwesomeIcon icon={faHome}/> Home</a>*/}
                     <Link id="home" to="/">Home</Link>
-                    <a href="#resume">Resume</a>          
+                    <Link id="resume" to="/resume">Resume</Link>         
         
                     <div class="dropdown">
                     <button class="dropbtn" href="#projects"> Projects</button>
@@ -40,7 +40,8 @@ class Navigation extends React.Component {
                     </div>
                     </div>
                     <Link id="photo" to="/photo" >Photo Gallery</Link>
-                    <a href="#about">About</a>
+                    {/*<a href="/#about">About</a> */}
+                    <Link id="about" to="/about" >About</Link>
         
                 </div>
             </div>

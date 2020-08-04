@@ -10,7 +10,7 @@ function App() {
 
     return (
 
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/photo" component={PhotoGallery} />

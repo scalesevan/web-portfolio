@@ -24,7 +24,7 @@ class Navigation extends React.Component {
             
                 <div class="header">
                     <img className="logo" src={dolf} alt="dolf"/>
-                    <text className="title">DJ Scales</text>
+                    <text className="title">Scales</text>
                 </div>
                 <div class="menubar-right">
                     {/*<a  href="#home"><FontAwesomeIcon icon={faHome}/> Home</a>*/}

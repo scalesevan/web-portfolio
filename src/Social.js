@@ -46,6 +46,7 @@ function Social() {
                     className="social"
                 />
             </a>
+            
             <a href="https://www.facebook.com/evanscalesss" rel="noopener noreferrer"target="_blank">
                 <FontAwesomeIcon 
                     icon={['fab', 'facebook']} 
@@ -53,6 +54,7 @@ function Social() {
                     className="social"
                 />
             </a>
+            {/*
             <a href="https://twitter.com/evanscaless" rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon 
                     icon={['fab', 'twitter']} 
@@ -61,7 +63,8 @@ function Social() {
                     fixedWidth
                     className="social"
                 />
-            </a>
+            </a> 
+            */}
             <a href="https://open.spotify.com/user/evanscales?si=OETkWOZjTSKArDtl4wvGEQ" rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon 
                     icon={['fab', 'spotify']} 

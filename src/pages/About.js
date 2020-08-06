@@ -6,6 +6,10 @@ import Social from '../Social';
 
 import ucsd from '../assets/UCSD_Seal.png';
 import habitat from '../assets/habitat_icon.png';
+import website from '../assets/website.png';
+import swim from '../assets/swim.png';
+import dj from '../assets/dj.png';
+import sneaker from '../assets/sneaker.png';
 
 function About() {
     
@@ -27,7 +31,8 @@ function About() {
                             <span class="desctime">Class of 2022</span>
                             <br></br>
                             <div class="descinfo">
-                            <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>I am a third year student at UCSD studying Computer Science. I dream of one day working in the music industry to combine the powers of music and technology.</p>
+                                <p>To get to know more about me you can see some photos that I take or the music that I listen to on Spotify.</p>
                             </div>
                     </div>
                 </div> 
@@ -68,14 +73,49 @@ function About() {
                             <div class="descinfo">
                                 <li>Created a React Native Android Application</li>
                                 <li>This application is for habit forming with friends by completeing tasks to earn currency to buy items for your virtual pet </li>
-                                <li>Integrated with MongoDB and Express</li>
-                                <li>Skills: HTML, Javascript, Databases</li> 
+                                <li>Integrated with MongoDB and ExpressJS</li>
+                                <li><b>Skills Used:</b> HTML, Javascript, Databases</li> 
                             </div>
                     </div>
                 </div> 
 
-                <h2>Projects</h2>             
+                <h2>Projects</h2>  
+                <div class="about-me">
+                    <img class="icon" src={website} alt="Website"/>
+                    <div class="desc">
+                            <span class="desctitle"><b>This Website</b></span>
+                            <br></br>
+                            <span class="desctime">Summer 2020</span>
+                            <br></br>
+
+                            <div class="descinfo">
+                                <li>Developed with React JS using Routing components.</li>
+                                <li><b>Skills Used:</b> HTML, Javascript, CSS, React JS</li> 
+                            </div>
+                    </div>
+                </div> 
+
                 <h2>Hobbies</h2>
+                
+                <div class="hobbies">
+                    <div class="hobby">
+                        <img class="hobby-icon" src={swim} alt="Swim"/>
+                        <p class="desctitle"><b>Swim</b></p>
+                        <p>I have been swimming since I was 8 years old and have continued until the present. I have been part of Golden West Swim club and the UCSD Swim Club as a 100 and 200 backstroke swimmer.</p>
+                    </div>
+
+                    <div class="hobby">
+                        <img class="hobby-icon" src={dj} alt="dj"/>
+                        <p class="desctitle"><b>DJ</b></p>
+                        <p>I began Djing with the UCSD Deejays {"&"} Vinylphiles Club in 2018. As a current member I have been part of event production and performance.</p>
+                    </div>
+
+                    <div class="hobby">
+                        <img class="hobby-icon" src={sneaker} alt="sneaker"/>
+                        <p class="desctitle"><b>Sneakers</b></p>
+                        <p>With one of my best friends, in high school I entered the world of sneakers where I became a sneakerhead. I buy, sell, and collect all types of sneakers... it may be a problem.</p>
+                    </div>
+                </div>
 
 
 

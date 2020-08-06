@@ -25,7 +25,8 @@ body {
   /*background-color: rgba(45, 129, 168, 0.486);*/
   background-color: rgb(235, 227, 215);
   margin: 0;
-  font-family: Oswald, Monaco, "Arial Narrow", Helvetica, sans-serif;
+  font-family:  "Lucida Console", Monaco, monospace
+  /*font-family:  Monaco, "Arial Narrow", Helvetica, sans-serif;*/
 }
 
 /* Home Profile */
@@ -127,6 +128,7 @@ body {
   width: 100vw;
   top: 0;
   z-index: 10;
+  box-shadow: 0 .5px 13px -5px;
 }
 
 .menubar a {
@@ -240,19 +242,42 @@ body {
 /* Photo Gallery */
 
 .slideshow-container {
-  max-width: 69vw;
-  padding-top: 12vh;
+  width: 69vw !important;
+  padding-top: 8vh;
   margin: auto;
+  
+}
+
+.slider{
+  
 }
 
 .wdt{  
-  width: 37%  !important;  
+  margin-left: -.015vw;
+  width: 100%  !important;  
+  text-align: center;
+
 }  
 
 .img  
 {  
-  width: 69vw !important;  
+  width: 69vw !important; 
 }  
+
+.img-vertical
+{
+  height: 45.97vw !important;
+}
+
+.img-desc {
+  line-height: 3px;
+  display: flex;
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Resume */
 
@@ -329,9 +354,25 @@ body {
   
 }
 
+.hobbies {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.hobby {
+  width: 30vw;
+  padding: 0px 20px
+}
+
+.hobby-icon {
+  width: 4vw;
+  vertical-align: middle;
+}
+
 
 .end {
-  padding-bottom: 100;
+  padding-bottom: 10vh;
 }
 
 /*

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a58060d188e80daf14d8ca774ca7eeb2",
+    "revision": "5177324da4e1f9c7746e419a66415dd8",
     "url": "/index.html"
   },
   {
-    "revision": "d8ace57d61e701dc41fc",
+    "revision": "18fba3f75de26dee3f00",
     "url": "/static/css/2.bf0413c3.chunk.css"
   },
   {
-    "revision": "c66643db2e70e916662f",
-    "url": "/static/css/main.86c96bd6.chunk.css"
+    "revision": "3c445de71196cbb6895a",
+    "url": "/static/css/main.6ec30353.chunk.css"
   },
   {
-    "revision": "d8ace57d61e701dc41fc",
-    "url": "/static/js/2.8e45c2af.chunk.js"
+    "revision": "18fba3f75de26dee3f00",
+    "url": "/static/js/2.671277d4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.8e45c2af.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.671277d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c66643db2e70e916662f",
-    "url": "/static/js/main.4cba5018.chunk.js"
+    "revision": "3c445de71196cbb6895a",
+    "url": "/static/js/main.dbe46062.chunk.js"
   },
   {
     "revision": "f53ad8bb13a47484d900",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f0b0d32ee5d2c5c10c07ab84f8ef524",
     "url": "/static/media/UCSD_Seal.7f0b0d32.png"
+  },
+  {
+    "revision": "ce6a5a279ff53e89dc143c7f7fa5e2c3",
+    "url": "/static/media/calc.ce6a5a27.png"
   },
   {
     "revision": "da1e9d8369935a9ce0d5b1285f68844a",
@@ -52,12 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ella_charlie.a64b40f8.jpeg"
   },
   {
+    "revision": "d29852974362c8d1682718dd91464cfe",
+    "url": "/static/media/grep.d2985297.png"
+  },
+  {
     "revision": "6f774c1039dfb9a16a835718d0ec0f85",
     "url": "/static/media/habitat_icon.6f774c10.png"
   },
   {
     "revision": "d27d8f93cdf7f73dc8717b71d7837a25",
     "url": "/static/media/kith_coca_con.d27d8f93.jpeg"
+  },
+  {
+    "revision": "ec4801b202c4cd13420150d51d5a7eba",
+    "url": "/static/media/lifeguard.ec4801b2.png"
   },
   {
     "revision": "cd11194041227faf33b9cea18f0ba1fe",

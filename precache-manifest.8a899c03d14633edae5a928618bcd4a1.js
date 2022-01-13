@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93089717ff89ba49517c1a3b7c924be1",
+    "revision": "639277b144c4581bdc77c5fb06e99e6c",
     "url": "/index.html"
   },
   {
-    "revision": "17bc9c73913e3e515758",
+    "revision": "a57a332d9238d3e01552",
     "url": "/static/css/2.8e72b816.chunk.css"
   },
   {
-    "revision": "bf622ba4552185bebb56",
+    "revision": "886288f86a7c87314348",
     "url": "/static/css/main.889d9264.chunk.css"
   },
   {
-    "revision": "17bc9c73913e3e515758",
-    "url": "/static/js/2.b8e66a14.chunk.js"
+    "revision": "a57a332d9238d3e01552",
+    "url": "/static/js/2.7893adb7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.b8e66a14.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7893adb7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf622ba4552185bebb56",
-    "url": "/static/js/main.836ce52e.chunk.js"
+    "revision": "886288f86a7c87314348",
+    "url": "/static/js/main.dc8f8b32.chunk.js"
   },
   {
     "revision": "f53ad8bb13a47484d900",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f0b0d32ee5d2c5c10c07ab84f8ef524",
     "url": "/static/media/UCSD_Seal.7f0b0d32.png"
+  },
+  {
+    "revision": "eecbed452b869d5d5cf053757d79e92b",
+    "url": "/static/media/amazon.eecbed45.png"
   },
   {
     "revision": "ce6a5a279ff53e89dc143c7f7fa5e2c3",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d9834a28ad750431f901bcd713e0570",
     "url": "/static/media/coachella_tower.2d9834a2.jpeg"
+  },
+  {
+    "revision": "f13045a800fa1c43ac422351dccfb757",
+    "url": "/static/media/covid.f13045a8.png"
   },
   {
     "revision": "05d8804d00514ea5805b53894b90c5f4",

@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css"
+import "../assets/stylesheets/App.css"
 
-import Navigation from '../Navigation';
-import Social from '../Social';
+import Navigation from '../visible/Navigation';
+import Social from '../visible/Social';
 
 function Resume() {
     

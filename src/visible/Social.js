@@ -47,7 +47,7 @@ function Social() {
                 />
             </a>
             
-            <a href="https://www.facebook.com/evanscalesss" rel="noopener noreferrer"target="_blank">
+            <a href="https://www.facebook.com/evscales" rel="noopener noreferrer"target="_blank">
                 <FontAwesomeIcon 
                     icon={['fab', 'facebook']} 
                     fixedWidth

@@ -220,12 +220,12 @@ body {
   position: fixed;
   vertical-align: middle;
   float: none;
-  width: 700px;
+  width: 50%;
   height: 200px;
   top: 102%;
   left: 50%;
   margin-top: -100px; /* Negative half of height. */
-  margin-left: -350px; /* Negative half of width. */
+  margin-left: -25%; /* Negative half of width. */
   text-align: center;
 }
 
@@ -242,41 +242,29 @@ body {
 /* Photo Gallery */
 
 .slideshow-container {
-  width: 69vw !important;
+  width: 63vw !important;
   padding-top: 8vh;
   margin: auto;
-  
+  overflow: show;
 }
 
-.slider{
-  
-}
-
-.wdt{  
-  margin-left: -.015vw;
-  width: 100%  !important;  
-  text-align: center;
+.photo-slide{  
 
 }  
 
-.img  
+.horizontal  
 {  
-  width: 69vw !important; 
+  width: 63vw !important; 
 }  
 
-.img-vertical
+.vertical
 {
-  height: 45.97vw !important;
+  width: 28vw !important;
 }
 
 .img-desc {
-  line-height: 3px;
-  display: flex;
+  line-height: 20px;
   text-align: center;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Resume */
@@ -293,12 +281,21 @@ body {
 
 /* About */
 
-
 .about-container{
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 0 20vw
+  padding: 4vh 20vw
+}
+
+.divider {
+  border-bottom: 1px solid rgb(64, 117, 139);
+  padding-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.nav-header {
+  padding-bottom: 10vh;
 }
 
 .about-me {
@@ -306,7 +303,7 @@ body {
   padding: 0px 0px 25px;
   font-size: 20px;
   line-height: 25px;
-  border-bottom: 1px solid rgb(64, 117, 139);
+  /*border-bottom: 1px solid rgb(64, 117, 139);*/
 }
 
 .me {
@@ -318,6 +315,7 @@ body {
   text-align: left;
   float: left;
   padding-left: 1vw;
+  padding-top: 0vh;
   max-width: 45vw;
   box-sizing: border-box;
 }
@@ -330,6 +328,28 @@ body {
   margin-left: 2vw;
   margin-right: 2vw;
   border-radius: 10%;
+}
+
+.button{
+  /*border: 1px solid rgb(73, 73, 73);*/
+  color: white;
+  background-color: rgb(73, 73, 73);
+  padding: 7px 7px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.button:hover {
+  background-color:rgb(64, 117, 139);
+}
+
+.demo-spacing {
+  text-align: left;
+
+}
+
+.demo-button {
+  float: right;
 }
 
 .desctitle{
@@ -387,6 +407,8 @@ body {
 /* Mobile Display */
 
 @media screen and (max-width: 710px) {
+  
+  /* Navigation */
   .menubar {
     padding: 10px 0px 0px !important;
     z-index: 10;
@@ -430,7 +452,8 @@ body {
     padding: 12px 4vmin !important;
     margin: 0 0;
   }
-
+  
+  /* Home Page */
   .bio {
     overflow: show;
     margin-left: auto;
@@ -479,9 +502,131 @@ body {
     font-size: 4vh
   }
 
+  /* Photo Gallery */
+
   .slideshow-container {
     padding-top: 20vh !important;
+    width: 62vw !important;
   }
+
+  .img-desc {
+    line-height: 15px;
+    text-align: center;
+    font-size: .8em;
+    width: 60vw;
+
+
+
+  }
+
+
+  /* About */
+
+.about-container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 10vw
+}
+
+.nav-header {
+  
+}
+
+.about-me {
+  overflow: show;
+  padding: 0px 0px 25px;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+.me {
+  display: block;
+  padding: 50px 15px 0px;
+}
+
+.desc {
+  text-align: left;
+  float: left;
+  padding-left: 1vw;
+  max-width: 60vw;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 10vw;
+  float: left;
+  vertical-align: middle;
+
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 10%;
+}
+
+.button{
+  /*border: 1px solid rgb(73, 73, 73);*/
+  color: white;
+  background-color: rgb(73, 73, 73);
+  padding: 7px 7px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.button:hover {
+  background-color:rgb(64, 117, 139);
+}
+
+.demo-spacing {
+  text-align: left;
+
+}
+
+.demo-button {
+  float: center;
+  display: inline-block;
+}
+
+.desctitle{
+
+}
+
+.desctime {
+  font-size: 17px;
+}
+
+.descinfo {
+  font-size: .8em;
+  line-height: 20px;
+}
+
+.about-table {
+  text-align: left;
+}
+
+.table-desc {
+  padding-left: 1vw;
+  
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hobby {
+  width: 60vw;
+  padding: 5px 20px
+}
+
+.hobby-icon {
+  width: 10vw;
+  vertical-align: middle;
+}
+
 
   .resume {
     padding-top: 20vh !important;

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import '../App.css';
-import portrait from '../assets/portrait-square.jpeg'
+import "../assets/stylesheets/App.css"
+import portrait from '../assets/images/portrait-square.jpeg'
 
-import Navigation from '../Navigation';
-import Social from '../Social';
+import Navigation from '../visible/Navigation';
+import Social from '../visible/Social';
 
 function Home() {
   return (
@@ -16,7 +16,7 @@ function Home() {
         <img class="portrait" src={portrait} alt="portrait"/>
         <div class="intro" >
           <p class="name" >Evan G.L. Scales</p>
-          <p class="paragraph" >I am a third year Computer Science major at UC San Diego</p>
+          <p class="paragraph" > UC San Diego Graduate</p>
         </div> 
       </div>
 
